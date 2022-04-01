@@ -1,0 +1,85 @@
+.gap-64 {
+  gap: 4rem;
+}
+.gap-32 {
+  gap: 2rem;
+}
+.gap-16 {
+  gap: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 0.5rem;
+}
+.mb-24 {
+  margin-bottom: 1.5rem;
+}
+.mb-32 {
+  margin-bottom: 2rem;
+}
+
+.mt-32 {
+  margin-top: 2rem;
+}
+.mt-64 {
+  margin-top: 4rem;
+}
+.mt-160 {
+  margin-top: 10rem;
+}
+.mt-154 {
+  margin-top: 9.625rem;
+}
+
+.input-absolute {
+  input {
+    padding-right: 2rem;
+  }
+  span {
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+  }
+}
+
+.media-wrapper {
+  overflow: hidden;
+  img,
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.pagination {
+  color: $primary-900;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  i {
+    font-size: 1.25rem;
+  }
+  i {
+    &:hover {
+      color: $primary-900;
+    }
+  }
+}
+.none {
+  display: none;
+  @include media-breakpoint-down(lg) {
+    display: block;
+  }
+}
+
+main {
+  position: relative;
+}
+
+.sticky {
+  &-logo {
+    position: sticky;
+    top: 40%;
+    left: 6rem;
+    width: 160px;
+  }
+}

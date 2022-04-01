@@ -1,0 +1,50 @@
+//colors
+$primary-900: #664229;
+$primary-800: #9c6644;
+$primary-700: #b08968;
+$background-color: #f5efe5;
+
+$text-color: #232323;
+
+//typography
+$font-header: "Playfair Display", serif;
+$font-content: "Poppins", sans-serif;
+
+$grid-columns: 12;
+$grid-gutter-width: 1.5rem;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1072px,
+  xxl: 1272px,
+);
+
+$primary: $primary-900;
+
+$theme-colors: (
+  "primary": $primary-900,
+  "background": $background-color,
+  "primary-800": $primary-800,
+);
+
+//forms
+
+$input-border-color: $primary-800;
+$input-border-radius: none;
+$input-focus-border-color: $primary-700;
+
+.form-control {
+  &::placeholder {
+    color: rgba($primary-800, $alpha: 0.5) !important;
+  }
+}

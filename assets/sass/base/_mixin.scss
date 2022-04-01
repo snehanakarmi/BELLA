@@ -1,0 +1,19 @@
+@mixin headings ($fontsize:32px, 
+$color: #232323, 
+$weight: 500, 
+$lineheight: 100%
+) {
+    font-size: $fontsize;
+    color: $color;
+    font-weight: $weight;
+    font-family: poppins;
+    line-height: $lineheight;
+}
+
+@mixin button($color, $padding-x, $padding-y, $font-size, $bgcolor, $radius){
+    color: $color;
+    padding: $padding-y $padding-x;
+    font-size: $font-size;
+    background-color: $bgcolor;
+    border-radius: $radius;
+}
